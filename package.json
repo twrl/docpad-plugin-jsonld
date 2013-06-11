@@ -1,0 +1,28 @@
+{
+  "name": "docpad-plugin-jsonld",
+  "version": "0.1.1",
+  "description": "JSON-LD plugin for Docpad",
+  "main": "./out/jsonld.plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "json-ld"
+  ],
+  "engines" : {
+    "node": ">=0.10",
+    "docpad": ">=6.3 <7"
+  },
+  "dependencies": {
+    "safefs": "~3.0.1",
+    "taskgroup": "~3.1.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  },
+  "author": "Tom Robbins <00.twrl@gmail.com> (http://twrl.github.io)",
+  "license": "BSD"
+}
